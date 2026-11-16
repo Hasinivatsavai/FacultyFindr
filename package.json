@@ -1,0 +1,25 @@
+{
+  "name": "facultyfindr",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-sqlite server/index.js",
+    "dev": "node --experimental-sqlite server/index.js --dev",
+    "build": "vite build",
+    "preview": "node --experimental-sqlite server/index.js"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-router-dom": "7.18.5",
+    "lucide-react": "1.72.0"
+  },
+  "devDependencies": {
+    "vite": "8.3.8",
+    "@vitejs/plugin-react": "6.3.0"
+  },
+  "engines": {
+    "node": "^22.12.0 || >=24"
+  }
+}
